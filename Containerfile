@@ -3,7 +3,7 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-FROM ghcr.io/ublue-os/bazzite-dx:stable
+FROM ghcr.io/ublue-os/bazzite-nvidia:stable
 
 # Universal Blue Images: https://github.com/orgs/ublue-os/packages
 
